@@ -2,7 +2,7 @@
 
 # This script pulls the list of Mozilla trusted certificate authorities
 # from the web at the "mozurl" below, parses the file to grab the PEM
-# for each cert, and then generates DER files in a new ./data directory
+# for each cert, and then generates DER files in a new ./certs directory
 # The DER files are imported into the MacOS trusted root keystore and
 # the generated DER files are then deleted,
 #
